@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import MyClassComponent from './components/MyClassComponent';
 import MyFuncComponent from './components/MyFuncComponent';
+import ComponentParent from './components/ComponentParent';
 
 /*
   날짜 : 2022/05/10
@@ -23,6 +24,8 @@ function App() {
       <h4>함수형 컴포넌트</h4>
       <MyFuncComponent/>
 
+      <h4>부모, 자식 컴포넌트</h4>
+      <ComponentParent/>
 
     </div>
   );
