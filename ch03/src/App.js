@@ -3,6 +3,10 @@ import './App.css';
 import MyClassComponent from './components/MyClassComponent';
 import MyFuncComponent from './components/MyFuncComponent';
 import ComponentParent from './components/ComponentParent';
+import PropsComponent1 from './components/PropsComponent1';
+import PropsComponent2 from './components/PropsComponent2';
+import StateComponent1 from './components/StateComponent1';
+import StateComponent2 from './components/StateComponent2';
 
 /*
   날짜 : 2022/05/10
@@ -26,6 +30,14 @@ function App() {
 
       <h4>부모, 자식 컴포넌트</h4>
       <ComponentParent/>
+
+      <h4>컴포넌트 props 실습</h4>
+      <PropsComponent1 tit="props 실습1" msg="속성을 갖는 클래스형 컴포넌트 실습"/>
+      <PropsComponent2 tit="props 실습2" msg="속성을 갖는 함수형 컴포넌트 실습"/>
+
+      <h4>컴포넌트 state 실습</h4>
+      <StateComponent1/>
+      <StateComponent2/>
 
     </div>
   );

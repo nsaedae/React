@@ -1,5 +1,5 @@
 import React from "react";
-import './MyFuncComponent.css';
+import './css/MyFuncComponent.css';
 
 const MyFuncComponent = function() {
 

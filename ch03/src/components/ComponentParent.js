@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ComponentChild from './ComponentChild';
-import './ComponentParent.css';
+import './css/ComponentParent.css';
 
 class ComponentParent extends Component {
     render() {

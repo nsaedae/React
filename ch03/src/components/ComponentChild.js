@@ -1,5 +1,5 @@
 import React from 'react';
-import './ComponentChild.css';
+import './css/ComponentChild.css';
 
 const ComponentChild = () => {
     return (
