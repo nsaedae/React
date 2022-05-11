@@ -19,6 +19,8 @@ function App() {
       <h4>클래스형 컴포넌트 이벤트</h4>
       <MyComponent1/>
 
+      <hr/>
+
       <h4>함수형 컴포넌트 이벤트</h4>
       <MyComponent2/>
 
