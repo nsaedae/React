@@ -12,8 +12,19 @@ import MyComponent3 from './components/MyComponent3';
   React Hooks
    - 함수형 컴포넌트에서 기능 확장을 위해 제공하는 리액트 기능 함수
    - 함수이름이 use~ 로 시작, 레퍼런스 참고(https://reactjs.org/docs/hooks-reference.html)
-*/
 
+
+  useState()
+   - 함수형 컴포넌트의 상태값을 관리하는 Hook
+   - React 가장 기본 Hook
+
+  useEffect()
+   - 함수형 컴포넌트가 렌더링 될때 특정 작업을 특정시점에 수행할 수 있는 Hook
+   - 클래스형 컴포넌트의 생명주기 함수와 비슷한 역할
+
+  useRef()
+   - 함수형 컴포넌트에서 특정 DOM에 대한 식별값을 설정하기 위한 Hook  
+*/
 function App() {
   return (
     <div className="App">
